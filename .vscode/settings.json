@@ -1,0 +1,14 @@
+{
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.postDeployTask": "npm install",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~2",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "npm prune",
+    "appService.defaultWebAppToDeploy": "/subscriptions/91d00dc5-c863-4541-8cfa-8429d39b0926/resourceGroups/dev-india-bcbsri/providers/Microsoft.Web/sites/angularappvinay",
+    "appService.deploySubpath": "dist",
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ]
+}
